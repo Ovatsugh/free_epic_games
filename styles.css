@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
+:root {
+    --back-color: white;
+    --color: black
+}
+
+.dark-mode:root {
+    --back-color: black;
+    --color: white;
+    --img: white;
+}
+
+
 * {
     font-family: 'Sarala', sans-serif;
+}
 
+header {
+    text-align: right;
+    margin-right: -40px;
 }
 
 .game,
@@ -44,5 +60,16 @@ footer {
 
 body {
     padding: 10px 50px;
+    background-color: var(--back-color);
+    color: var(--color);
 
+}
+
+footer img {
+    background-color: white;
+}
+
+.fa-solid {
+    font-size: 30px;
+    cursor: pointer;
 }
