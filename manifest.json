@@ -1,0 +1,13 @@
+{
+    "name": "Free Epic Games",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Free Games in Epic Games",
+    "browser_action": {
+      "default_icon": "epic-logo.png",
+      "default_popup": "popup.html",
+      "default_title": "Título da extensão"
+    },
+    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net; object-src 'self'"
+  }
+  
